@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+
+<body>
+  <form method="POST" action="/">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="figure[name]"/>
+    <br>
+    <br>
+    <h2>Titles</h2>
+  <!-- Title checkboxes go here!-->
+    <br>
+    <br>
+    <h2><label for="title">Create New Title:</label> </h2>
+    <input type="text" id="title" name="title[name]"/>
+    <br>
+    <br>
+    <h2>Landmarks</h2>
+    <!-- Landmark checkboxes go here! -->
+    <br>
+    <br>
+    <h2>Create New Landmark:</h2>
+    <label for="landmark-name">Name:</label>
+    <input type="text" id="landmark-name" name="landmark[name]"/>
+    <label for="landmark-year">Year:</label>
+    <input type="text" id="landmark-year" name="landmark[year]" />
+    <input type="submit" id="submit" value="Create New Figure" />
+
+  </form>
+</body>
+
+</html>
